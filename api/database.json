@@ -1,0 +1,98 @@
+{
+  "authors": [
+    {
+      "id": 1,
+      "author": "Laci Zeidler",
+      "email": "laci.zeidler@gmail.com"
+    },
+    {
+      "id": 2,
+      "author": "Alex Lewis",
+      "email": "alex.lewis@gmail.com"
+    },
+    {
+      "id": 3,
+      "author": "Melissa Fox",
+      "email": "melissa.fox@gmail.com"
+    },
+    {
+      "id": 4,
+      "author": "Leah Daniel",
+      "email": "leah.daniel@gmail.com"
+    }
+  ],
+  "recipients": [
+    {
+      "id": 1,
+      "recipient": "Laci Zeidler",
+      "email": "laci.zeidler@gmail.com"
+    },
+    {
+      "id": 2,
+      "recipient": "Alex Lewis",
+      "email": "alex.lewis@gmail.com"
+    },
+    {
+      "id": 3,
+      "recipient": "Melissa Fox",
+      "email": "melissa.fox@gmail.com"
+    },
+    {
+      "id": 4,
+      "recipient": "Leah Daniel",
+      "email": "leah.daniel@gmail.com"
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "topic": "Business"
+    },
+    {
+      "id": 2,
+      "topic": "Friendly"
+    },
+    {
+      "id": 3,
+      "topic": "Family"
+    },
+    {
+      "id": 4,
+      "topic": "Congratulations"
+    },
+    {
+      "id": 5,
+      "topic": "Condolences"
+    }
+  ],
+  "sentLetters": [
+    {
+      "id": 1,
+      "authorId": 2,
+      "recipientId": 1,
+      "topicId": 4,
+      "message": "This is a message."
+    },
+    {
+      "authorId": "2",
+      "message": "THIS IS A MESSAGE",
+      "topicId": "1",
+      "recipientId": "1",
+      "id": 2
+    },
+    {
+      "authorId": "2",
+      "message": "This is dope",
+      "topicId": "1",
+      "recipientId": "2",
+      "id": 3
+    },
+    {
+      "authorId": "4",
+      "message": "Hope you are having a good day.",
+      "topicId": "1",
+      "recipientId": "1",
+      "id": 4
+    }
+  ]
+}
