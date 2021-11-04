@@ -73,10 +73,10 @@ mainContainer.addEventListener(
             const userRecipient = document.querySelector("#recipients").value
 
             const dataToSendToAPI = {
-                authorId: userAuthor,
+                authorId: parseInt(userAuthor),
                 message: userLetter,
-                topicId: userTopic,
-                recipientId: userRecipient
+                topicId: parseInt(userTopic),
+                recipientId: parseInt(userRecipient)
             }
 
             sendSentLetters(dataToSendToAPI)

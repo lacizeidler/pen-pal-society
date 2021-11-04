@@ -1,5 +1,5 @@
 import { messageForm } from "./messageForm.js"
-import { Letters } from "./savedMessages.js"
+import { Letter } from "./savedMessages.js"
 
 export const PenPalSociety = () => {
     return `
@@ -9,7 +9,7 @@ export const PenPalSociety = () => {
     </section>
     <section class="sentMessages">
     <h2>Sent Messages</h2>
-        ${Letters()}
+        ${Letter()}
     </section>
     `
 }

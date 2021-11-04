@@ -74,25 +74,11 @@
       "message": "This is a message."
     },
     {
-      "authorId": "2",
-      "message": "THIS IS A MESSAGE",
-      "topicId": "1",
-      "recipientId": "1",
+      "authorId": 3,
+      "message": "lksjdhfouancsdihsd",
+      "topicId": 1,
+      "recipientId": 2,
       "id": 2
-    },
-    {
-      "authorId": "2",
-      "message": "This is dope",
-      "topicId": "1",
-      "recipientId": "2",
-      "id": 3
-    },
-    {
-      "authorId": "4",
-      "message": "Hope you are having a good day.",
-      "topicId": "1",
-      "recipientId": "1",
-      "id": 4
     }
   ]
 }
